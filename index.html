@@ -11,13 +11,13 @@
 <body class="bg-[#F7F8F5] text-[#344C3D] antialiased">
 
     <!-- Navigation -->
-    <header class="px-10 py-5">
-        <nav class="max-w-7xl mx-auto flex items-center justify-between">
+    <header class="px-4 py-5 md:px-8 lg:px-10">
+        <nav class="max-w-7xl mx-auto flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
             <a href="index.html" class="text-2xl font-bold tracking-tight">
                 SM<span class="text-[#8EA58C]">.</span>
             </a>
 
-            <div class="flex items-center gap-8 text-sm font-medium">
+            <div class="flex flex-wrap items-center justify-center gap-x-5 gap-y-3 text-xs font-medium md:gap-6 lg:gap-8 lg:text-sm">
                 <a href="index.html" class="text-[#344C3D]">Home</a>
                 <a href="about.html" class="text-[#738A6E] hover:text-[#344C3D] transition">About</a>
                 <a href="expertise.html" class="text-[#738A6E] hover:text-[#344C3D] transition">Expertise</a>
@@ -33,16 +33,15 @@
     </header>
 
 
-    <main class="max-w-7xl mx-auto px-10">
+    <main class="max-w-7xl mx-auto px-4 md:px-8 lg:px-10">
 
         <!-- Hero -->
         <section class="pt-12 pb-8">
 
-            <div class="grid grid-cols-12 gap-5 items-stretch">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-stretch">
 
                 <!-- Main introduction -->
-                <div class="col-span-7 bg-white border border-[#E5EAE3] rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md p-10 flex flex-col justify-between min-h-[390px]">
-
+                <div class="lg:col-span-7 bg-white border border-[#E5EAE3] rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md p-6 md:p-8 lg:p-10 flex flex-col justify-between min-h-[390px]">
                     <div>
                         <div class="flex items-center gap-3 mb-8">
                             <span class="h-2 w-2 rounded-full bg-[#738A6E]"></span>
@@ -51,12 +50,12 @@
                             </p>
                         </div>
 
-                        <h1 class="text-5xl leading-[1.12] font-semibold tracking-tight max-w-2xl">
+                        <h1 class="text-3xl md:text-4xl lg:text-5xl leading-[1.12] font-semibold tracking-tight max-w-2xl">
                             Engineering systems.
                             <span class="text-[#738A6E]">Building secure foundations.</span>
                         </h1>
 
-                        <p class="mt-6 text-sm leading-7 text-[#66776A] max-w-xl">
+                       <p class="mt-5 md:mt-6 text-sm leading-7 text-[#66776A] max-w-xl">
                             I'm Sechaba L. Mohale, a Computing graduate specialising in
                             Network and Infrastructure Management. My interests span
                             infrastructure engineering, network systems, automation
@@ -64,7 +63,7 @@
                         </p>
                     </div>
 
-                    <div class="flex items-center gap-3 mt-8">
+                    <div class="flex flex-col sm:flex-row sm:items-center gap-3 mt-8">
                         <a href="projects.html"
                            class="bg-[#344C3D] text-white px-6 py-3 text-xs font-semibold tracking-wider rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm hover:bg-[#496451] transition">
                             EXPLORE MY WORK →
@@ -80,14 +79,13 @@
 
 
                 <!-- Professional identity panel -->
-                <div class="col-span-5 bg-[#344C3D] text-white rounded-tl-md rounded-br-3xl rounded-tr-3xl rounded-bl-md p-8 flex flex-col justify-between">
-
+               <div class="lg:col-span-5 bg-[#344C3D] text-white rounded-tl-md rounded-br-3xl rounded-tr-3xl rounded-bl-md p-6 md:p-8 flex flex-col justify-between">
                     <div>
                         <p class="text-xs tracking-[0.2em] text-[#BFCFBB] uppercase mb-5">
                             Professional focus
                         </p>
 
-                        <h2 class="text-3xl font-medium leading-snug">
+                       <h2 class="text-2xl md:text-3xl font-medium leading-snug">
                             Connecting software, infrastructure and security.
                         </h2>
                     </div>
@@ -95,12 +93,12 @@
                     <div class="mt-8">
                         <div class="border-t border-[#607666] pt-5 mb-5">
                             <p class="text-xs text-[#BFCFBB] mb-2">Technical foundations</p>
-                            <p class="text-sm leading-6">
+                            <p class="text-xs md:text-sm leading-6">
                                 Networking · Linux · Virtualisation · Automation · Software
                             </p>
                         </div>
 
-                        <div class="grid grid-cols-2 gap-4">
+                        <div class="grid grid-cols-2 gap-3 md:gap-4">
                             <div class="bg-[#496451] rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm p-4">
                                 <p class="text-2xl font-semibold">2025</p>
                                 <p class="text-xs text-[#D5E0D2] mt-1">Graduation</p>
@@ -120,7 +118,7 @@
 
         <!-- Green horizontal identity strip -->
         <section class="mb-8">
-            <div class="bg-[#738A6E] text-white rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm px-7 py-5 flex items-center justify-between gap-8">
+           <div class="bg-[#738A6E] text-white rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm px-5 md:px-7 py-5 flex flex-col md:flex-row md:items-center md:justify-between gap-5 md:gap-8">
 
                 <div>
                     <p class="text-[10px] tracking-[0.2em] uppercase text-[#E3EBDD]">
@@ -131,7 +129,7 @@
                     </p>
                 </div>
 
-                <div class="flex items-center gap-8 text-xs font-medium text-white/90">
+                <div class="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs font-medium text-white/90">
                     <span>Infrastructure</span>
                     <span>Networking</span>
                     <span>Automation</span>
@@ -145,7 +143,7 @@
         <!-- Explore sections -->
         <section class="pb-10">
 
-            <div class="flex items-end justify-between mb-5">
+           <div class="flex flex-col gap-3 mb-5 md:flex-row md:items-end md:justify-between">
                 <div>
                     <p class="text-xs tracking-[0.2em] uppercase text-[#738A6E] font-semibold">
                         Discover my portfolio
@@ -161,7 +159,7 @@
             </div>
 
 
-            <div class="grid grid-cols-3 gap-4">
+           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
 
                 <!-- About -->
                 <a href="about.html"
@@ -241,8 +239,8 @@
 
 
     <!-- Footer -->
-    <footer class="bg-[#283C30] text-white px-10 py-5">
-        <div class="max-w-7xl mx-auto flex items-center justify-between">
+    <footer class="bg-[#283C30] text-white px-4 md:px-8 lg:px-10 py-5">
+        <div class="max-w-7xl mx-auto flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
 
             <div>
                 <p class="font-bold tracking-tight">SM.</p>
@@ -251,7 +249,7 @@
                 </p>
             </div>
 
-            <div class="flex items-center gap-6 text-xs text-[#D5E0D2]">
+           <div class="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-[#D5E0D2]">
                 <a href="https://github.com/SechabaL/" target="_blank" class="hover:text-white transition">GitHub</a>
                 <a href="https://linkedin.com/in/sechaba-l-mohale-b29096228" target="_blank" class="hover:text-white transition">LinkedIn</a>
                 <a href="mailto:1mohalesechaba@gmail.com" class="hover:text-white transition">Email</a>
