@@ -1,0 +1,51 @@
+:root {
+    /* Brand colours */
+    --color-primary: #344C3D;
+    --color-secondary: #738A6E;
+    --color-accent: #8EA58C;
+    --color-primary-hover: #496451;
+    --color-secondary-hover: #60785C;
+
+    /* Backgrounds */
+    --color-page-background: #F7F8F5;
+    --color-surface: #FFFFFF;
+    --color-surface-accent: #EAF0E7;
+    --color-surface-hover: #F0F3ED;
+    --color-footer-background: #283C30;
+    --color-surface-tag: #EEF3EC;
+    --color-surface-project: #EDF2EA;
+    --color-surface-project-section: #E9EEE7;
+
+    /* Text colours */
+    --color-text-primary: #344C3D;
+    --color-text-secondary: #66776A;
+    --color-text-muted: #879487;
+    --color-text-subtle: #7A887B;
+    --color-text-light: #D5E0D2;
+    --color-text-light-muted: #BFCFBB;
+    --color-text-accent-light: #E3EBDD;
+    --color-text-navigation: #66756A;
+    --color-text-body: #718075;
+    --color-text-soft: #8A998D;
+    --color-text-tag: #526B55;
+    --color-text-on-dark: #D0DCCF;
+    --color-text-on-dark-accent: #C0D0BC;
+    --color-text-on-dark-muted: #AFC2AA;
+    --color-text-caption: #8A988B;
+    --color-text-caption-project: #8A998C;
+
+    /* Borders */
+    --color-border: #E5EAE3;
+    --color-border-subtle: #DCE4D9;
+    --color-border-accent: #DCE5D8;
+    --color-border-dark: #607666;
+    --color-border-light: #BFCFBB;
+    --color-border-inverse: #D5E0D2;
+    --color-border-header: #E3E8E1;
+    --color-border-card: #E4EAE2;
+    --color-border-section: #DDE5DC;
+    --color-border-project: #DDE6DA;
+    --color-border-on-dark: #AFC2AA;
+    --color-border-project-section: #DDE4DA;
+    --color-border-project-card: #E1E8DF;
+}

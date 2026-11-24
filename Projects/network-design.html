@@ -7,37 +7,38 @@
     <meta name="description" content="Cisco Packet Tracer VLAN segmentation project by Sechaba L. Mohale. An implemented network simulation exploring departmental separation and controlled communication between network segments.">
     <title>Enterprise Network Segmentation | Sechaba L. Mohale</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../assets/css/theme.css">
 </head>
 
-<body class="bg-[#F7F8F5] text-[#344C3D] antialiased">
+<body class="bg-[var(--color-page-background)] text-[var(--color-text-primary)] antialiased">
 
     <!-- Navigation -->
-    <header class="border-b border-[#E5EAE3]">
+    <header class="border-b border-[var(--color-border)]">
         <nav class="max-w-7xl mx-auto px-6 lg:px-10 py-6 flex items-center justify-between">
-            <a href="../index.html" class="text-xl font-bold tracking-tight text-[#344C3D]">
-                Sechaba<span class="text-[#738A6E]">.</span>
+            <a href="../index.html" class="text-xl font-bold tracking-tight text-[var(--color-text-primary)]">
+                Sechaba<span class="text-[var(--color-secondary)]">.</span>
             </a>
 
-            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-[#66776A]">
-                <a href="../index.html" class="hover:text-[#344C3D] transition">Home</a>
-                <a href="../about.html" class="hover:text-[#344C3D] transition">About</a>
-                <a href="../expertise.html" class="hover:text-[#344C3D] transition">Expertise</a>
-                <a href="../projects.html" class="text-[#344C3D]">Projects</a>
-                <a href="../experience.html" class="hover:text-[#344C3D] transition">Experience</a>
-                <a href="../contact.html" class="hover:text-[#344C3D] transition">Contact</a>
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-[var(--color-text-secondary)]">
+                <a href="../index.html" class="hover:text-[var(--color-text-primary)] transition">Home</a>
+                <a href="../about.html" class="hover:text-[var(--color-text-primary)] transition">About</a>
+                <a href="../expertise.html" class="hover:text-[var(--color-text-primary)] transition">Expertise</a>
+                <a href="../projects.html" class="text-[var(--color-text-primary)]">Projects</a>
+                <a href="../experience.html" class="hover:text-[var(--color-text-primary)] transition">Experience</a>
+                <a href="../contact.html" class="hover:text-[var(--color-text-primary)] transition">Contact</a>
             </div>
 
             <a href="../contact.html"
-               class="hidden sm:inline-flex bg-[#344C3D] text-white px-5 py-3 rounded-full text-sm font-medium hover:bg-[#283C30] transition">
+               class="hidden sm:inline-flex bg-[var(--color-primary)] text-white px-5 py-3 rounded-full text-sm font-medium hover:bg-[var(--color-footer-background)] transition">
                 Get in touch
             </a>
         </nav>
 
-        <div class="md:hidden px-6 pb-5 flex flex-wrap gap-x-5 gap-y-3 text-sm text-[#66776A]">
+        <div class="md:hidden px-6 pb-5 flex flex-wrap gap-x-5 gap-y-3 text-sm text-[var(--color-text-secondary)]">
             <a href="../index.html">Home</a>
             <a href="../about.html">About</a>
             <a href="../expertise.html">Expertise</a>
-            <a href="../projects.html" class="text-[#344C3D] font-semibold">Projects</a>
+            <a href="../projects.html" class="text-[var(--color-text-primary)] font-semibold">Projects</a>
             <a href="../experience.html">Experience</a>
             <a href="../contact.html">Contact</a>
         </div>
@@ -49,22 +50,22 @@
         <section class="max-w-7xl mx-auto px-6 lg:px-10 pt-12 lg:pt-20 pb-16 lg:pb-24">
 
             <a href="../projects.html"
-               class="inline-flex items-center gap-2 text-sm text-[#738A6E] hover:text-[#344C3D] transition mb-12">
+               class="inline-flex items-center gap-2 text-sm text-[var(--color-secondary)] hover:text-[var(--color-text-primary)] transition mb-12">
                 <span aria-hidden="true">&larr;</span>
                 Back to projects
             </a>
 
             <div class="max-w-4xl">
-                <p class="text-xs font-semibold uppercase tracking-[0.22em] text-[#738A6E] mb-6">
+                <p class="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--color-secondary)] mb-6">
                     Network Engineering / Cisco Packet Tracer
                 </p>
 
-                <h1 class="text-4xl sm:text-5xl lg:text-7xl font-semibold tracking-tight leading-[1.08] text-[#344C3D]">
+                <h1 class="text-4xl sm:text-5xl lg:text-7xl font-semibold tracking-tight leading-[1.08] text-[var(--color-text-primary)]">
                     Enterprise Network
-                    <span class="text-[#738A6E]">Segmentation.</span>
+                    <span class="text-[var(--color-secondary)]">Segmentation.</span>
                 </h1>
 
-                <p class="mt-8 text-lg lg:text-xl leading-8 text-[#66776A] max-w-3xl">
+                <p class="mt-8 text-lg lg:text-xl leading-8 text-[var(--color-text-secondary)] max-w-3xl">
                     An implemented VLAN segmentation topology developed in
                     Cisco Packet Tracer to demonstrate logical network separation,
                     departmental organisation and controlled communication
@@ -73,24 +74,24 @@
             </div>
 
             <!-- Project Metadata -->
-            <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 border-y border-[#DDE4DA] mt-16 py-8">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 border-y border-[var(--color-border-project-section)] mt-16 py-8">
                 <div>
-                    <p class="text-xs uppercase tracking-widest text-[#8A998C] mb-2">Project type</p>
+                    <p class="text-xs uppercase tracking-widest text-[var(--color-text-caption-project)] mb-2">Project type</p>
                     <p class="font-semibold text-sm">Network Simulation</p>
                 </div>
 
                 <div>
-                    <p class="text-xs uppercase tracking-widest text-[#8A998C] mb-2">Platform</p>
+                    <p class="text-xs uppercase tracking-widest text-[var(--color-text-caption-project)] mb-2">Platform</p>
                     <p class="font-semibold text-sm">Cisco Packet Tracer</p>
                 </div>
 
                 <div>
-                    <p class="text-xs uppercase tracking-widest text-[#8A998C] mb-2">Core discipline</p>
+                    <p class="text-xs uppercase tracking-widest text-[var(--color-text-caption-project)] mb-2">Core discipline</p>
                     <p class="font-semibold text-sm">Network Segmentation</p>
                 </div>
 
                 <div>
-                    <p class="text-xs uppercase tracking-widest text-[#8A998C] mb-2">Deliverables</p>
+                    <p class="text-xs uppercase tracking-widest text-[var(--color-text-caption-project)] mb-2">Deliverables</p>
                     <p class="font-semibold text-sm">Documentation &amp; .pkt File</p>
                 </div>
             </div>
@@ -101,7 +102,7 @@
             <div class="max-w-7xl mx-auto px-6 lg:px-10 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
 
                 <div class="lg:col-span-4">
-                    <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#738A6E] mb-5">
+                    <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-secondary)] mb-5">
                         01 / Overview
                     </p>
                     <h2 class="text-3xl lg:text-4xl font-semibold leading-tight">
@@ -109,7 +110,7 @@
                     </h2>
                 </div>
 
-                <div class="lg:col-span-8 space-y-6 text-[#66776A] leading-8">
+                <div class="lg:col-span-8 space-y-6 text-[var(--color-text-secondary)] leading-8">
                     <p>
                         Enterprise networks require an organised approach to
                         connecting devices, services and operational departments.
@@ -142,13 +143,13 @@
             <div class="max-w-7xl mx-auto px-6 lg:px-10">
 
                 <div class="max-w-2xl mb-14">
-                    <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#738A6E] mb-5">
+                    <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-secondary)] mb-5">
                         02 / Engineering Context
                     </p>
                     <h2 class="text-3xl lg:text-4xl font-semibold">
                         Why network segmentation matters.
                     </h2>
-                    <p class="mt-5 text-[#66776A] leading-8">
+                    <p class="mt-5 text-[var(--color-text-secondary)] leading-8">
                         Network segmentation is an architectural approach to
                         dividing a larger Layer 2 network into smaller logical
                         broadcast domains. VLANs provide a mechanism for
@@ -160,30 +161,30 @@
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
 
-                    <article class="bg-white border border-[#E5EAE3] rounded-2xl p-7">
-                        <p class="text-sm font-semibold text-[#738A6E] mb-5">01</p>
+                    <article class="bg-white border border-[var(--color-border)] rounded-2xl p-7">
+                        <p class="text-sm font-semibold text-[var(--color-secondary)] mb-5">01</p>
                         <h3 class="text-xl font-semibold mb-4">Traffic Isolation</h3>
-                        <p class="text-sm text-[#66776A] leading-7">
+                        <p class="text-sm text-[var(--color-text-secondary)] leading-7">
                             VLANs establish separate broadcast domains,
                             limiting the propagation of Layer 2 broadcast
                             traffic to the relevant logical segment.
                         </p>
                     </article>
 
-                    <article class="bg-white border border-[#E5EAE3] rounded-2xl p-7">
-                        <p class="text-sm font-semibold text-[#738A6E] mb-5">02</p>
+                    <article class="bg-white border border-[var(--color-border)] rounded-2xl p-7">
+                        <p class="text-sm font-semibold text-[var(--color-secondary)] mb-5">02</p>
                         <h3 class="text-xl font-semibold mb-4">Network Organisation</h3>
-                        <p class="text-sm text-[#66776A] leading-7">
+                        <p class="text-sm text-[var(--color-text-secondary)] leading-7">
                             Logical grouping allows devices to be organised
                             according to departmental or operational
                             requirements rather than physical location alone.
                         </p>
                     </article>
 
-                    <article class="bg-white border border-[#E5EAE3] rounded-2xl p-7">
-                        <p class="text-sm font-semibold text-[#738A6E] mb-5">03</p>
+                    <article class="bg-white border border-[var(--color-border)] rounded-2xl p-7">
+                        <p class="text-sm font-semibold text-[var(--color-secondary)] mb-5">03</p>
                         <h3 class="text-xl font-semibold mb-4">Controlled Communication</h3>
-                        <p class="text-sm text-[#66776A] leading-7">
+                        <p class="text-sm text-[var(--color-text-secondary)] leading-7">
                             Logical separation provides a basis for managing
                             communication between network segments through
                             appropriate Layer 3 routing and access-control
@@ -200,7 +201,7 @@
             <div class="max-w-7xl mx-auto px-6 lg:px-10 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
 
                 <div class="lg:col-span-4">
-                    <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#738A6E] mb-5">
+                    <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-secondary)] mb-5">
                         03 / Implementation
                     </p>
                     <h2 class="text-3xl lg:text-4xl font-semibold leading-tight">
@@ -211,9 +212,9 @@
                 <div class="lg:col-span-8">
                     <div class="space-y-10">
 
-                        <div class="border-l-2 border-[#BFCFBB] pl-6">
+                        <div class="border-l-2 border-[var(--color-border-light)] pl-6">
                             <h3 class="text-lg font-semibold mb-3">Logical Network Separation</h3>
-                            <p class="text-[#66776A] leading-8">
+                            <p class="text-[var(--color-text-secondary)] leading-8">
                                 The topology applies VLAN segmentation to
                                 organise connected devices into distinct
                                 logical network segments. This provides
@@ -222,9 +223,9 @@
                             </p>
                         </div>
 
-                        <div class="border-l-2 border-[#BFCFBB] pl-6">
+                        <div class="border-l-2 border-[var(--color-border-light)] pl-6">
                             <h3 class="text-lg font-semibold mb-3">Simulation Environment</h3>
-                            <p class="text-[#66776A] leading-8">
+                            <p class="text-[var(--color-text-secondary)] leading-8">
                                 Cisco Packet Tracer was used as the network
                                 simulation environment. The resulting
                                 topology is preserved in a native Packet
@@ -234,9 +235,9 @@
                             </p>
                         </div>
 
-                        <div class="border-l-2 border-[#BFCFBB] pl-6">
+                        <div class="border-l-2 border-[var(--color-border-light)] pl-6">
                             <h3 class="text-lg font-semibold mb-3">Technical Documentation</h3>
-                            <p class="text-[#66776A] leading-8">
+                            <p class="text-[var(--color-text-secondary)] leading-8">
                                 The project is accompanied by a dedicated
                                 technical document and a GitHub repository
                                 containing the project artefacts. This
@@ -254,7 +255,7 @@
         <!-- Technologies -->
         <section class="py-20 lg:py-24">
             <div class="max-w-7xl mx-auto px-6 lg:px-10">
-                <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#738A6E] mb-5">
+                <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-secondary)] mb-5">
                     04 / Technical Environment
                 </p>
 
@@ -263,22 +264,22 @@
                 </h2>
 
                 <div class="flex flex-wrap gap-3">
-                    <span class="px-5 py-3 rounded-full bg-[#E9EEE7] text-sm font-medium">Cisco Packet Tracer</span>
-                    <span class="px-5 py-3 rounded-full bg-[#E9EEE7] text-sm font-medium">Virtual LANs (VLANs)</span>
-                    <span class="px-5 py-3 rounded-full bg-[#E9EEE7] text-sm font-medium">Network Segmentation</span>
-                    <span class="px-5 py-3 rounded-full bg-[#E9EEE7] text-sm font-medium">Layer 2 Switching Concepts</span>
-                    <span class="px-5 py-3 rounded-full bg-[#E9EEE7] text-sm font-medium">Broadcast Domains</span>
-                    <span class="px-5 py-3 rounded-full bg-[#E9EEE7] text-sm font-medium">Enterprise Network Design</span>
+                    <span class="px-5 py-3 rounded-full bg-[var(--color-surface-project-section)] text-sm font-medium">Cisco Packet Tracer</span>
+                    <span class="px-5 py-3 rounded-full bg-[var(--color-surface-project-section)] text-sm font-medium">Virtual LANs (VLANs)</span>
+                    <span class="px-5 py-3 rounded-full bg-[var(--color-surface-project-section)] text-sm font-medium">Network Segmentation</span>
+                    <span class="px-5 py-3 rounded-full bg-[var(--color-surface-project-section)] text-sm font-medium">Layer 2 Switching Concepts</span>
+                    <span class="px-5 py-3 rounded-full bg-[var(--color-surface-project-section)] text-sm font-medium">Broadcast Domains</span>
+                    <span class="px-5 py-3 rounded-full bg-[var(--color-surface-project-section)] text-sm font-medium">Enterprise Network Design</span>
                 </div>
             </div>
         </section>
 
         <!-- Engineering Perspective -->
-        <section class="bg-[#344C3D] text-white py-20 lg:py-28">
+        <section class="bg-[var(--color-primary)] text-white py-20 lg:py-28">
             <div class="max-w-7xl mx-auto px-6 lg:px-10 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
 
                 <div class="lg:col-span-4">
-                    <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#BFCFBB] mb-5">
+                    <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-text-light-muted)] mb-5">
                         05 / Engineering Perspective
                     </p>
                     <h2 class="text-3xl lg:text-4xl font-semibold leading-tight">
@@ -312,13 +313,13 @@
             <div class="max-w-7xl mx-auto px-6 lg:px-10">
 
                 <div class="max-w-2xl mb-12">
-                    <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#738A6E] mb-5">
+                    <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-secondary)] mb-5">
                         06 / Project Artefacts
                     </p>
                     <h2 class="text-3xl lg:text-4xl font-semibold">
                         Inspect the implementation.
                     </h2>
-                    <p class="mt-5 text-[#66776A] leading-8">
+                    <p class="mt-5 text-[var(--color-text-secondary)] leading-8">
                         The repository provides access to the source
                         documentation and the native Cisco Packet Tracer
                         simulation file.
@@ -329,12 +330,12 @@
 
                     <a href="https://github.com/SechabaL/vlan-segmentation-lab"
                        target="_blank" rel="noopener noreferrer"
-                       class="group bg-white border border-[#E1E8DF] rounded-2xl p-7 hover:border-[#738A6E] transition">
-                        <p class="text-xs uppercase tracking-widest text-[#8A998C] mb-5">Repository</p>
-                        <h3 class="text-xl font-semibold mb-4 group-hover:text-[#738A6E] transition">
+                       class="group bg-white border border-[var(--color-border-project-card)] rounded-2xl p-7 hover:border-[var(--color-secondary)] transition">
+                        <p class="text-xs uppercase tracking-widest text-[var(--color-text-caption-project)] mb-5">Repository</p>
+                        <h3 class="text-xl font-semibold mb-4 group-hover:text-[var(--color-secondary)] transition">
                             GitHub Repository
                         </h3>
-                        <p class="text-sm text-[#66776A] leading-7 mb-7">
+                        <p class="text-sm text-[var(--color-text-secondary)] leading-7 mb-7">
                             Access the project repository and its supporting
                             files.
                         </p>
@@ -343,12 +344,12 @@
 
                     <a href="https://github.com/SechabaL/vlan-segmentation-lab/blob/main/VLAN%20Segmentation%20Documentation.pdf"
                        target="_blank" rel="noopener noreferrer"
-                       class="group bg-white border border-[#E1E8DF] rounded-2xl p-7 hover:border-[#738A6E] transition">
-                        <p class="text-xs uppercase tracking-widest text-[#8A998C] mb-5">Documentation</p>
-                        <h3 class="text-xl font-semibold mb-4 group-hover:text-[#738A6E] transition">
+                       class="group bg-white border border-[var(--color-border-project-card)] rounded-2xl p-7 hover:border-[var(--color-secondary)] transition">
+                        <p class="text-xs uppercase tracking-widest text-[var(--color-text-caption-project)] mb-5">Documentation</p>
+                        <h3 class="text-xl font-semibold mb-4 group-hover:text-[var(--color-secondary)] transition">
                             Technical PDF
                         </h3>
-                        <p class="text-sm text-[#66776A] leading-7 mb-7">
+                        <p class="text-sm text-[var(--color-text-secondary)] leading-7 mb-7">
                             Read the accompanying VLAN segmentation
                             documentation.
                         </p>
@@ -357,12 +358,12 @@
 
                     <a href="https://github.com/SechabaL/vlan-segmentation-lab/blob/main/VLAN%20Segmentation%20Topology.pkt"
                        target="_blank" rel="noopener noreferrer"
-                       class="group bg-white border border-[#E1E8DF] rounded-2xl p-7 hover:border-[#738A6E] transition">
-                        <p class="text-xs uppercase tracking-widest text-[#8A998C] mb-5">Simulation File</p>
-                        <h3 class="text-xl font-semibold mb-4 group-hover:text-[#738A6E] transition">
+                       class="group bg-white border border-[var(--color-border-project-card)] rounded-2xl p-7 hover:border-[var(--color-secondary)] transition">
+                        <p class="text-xs uppercase tracking-widest text-[var(--color-text-caption-project)] mb-5">Simulation File</p>
+                        <h3 class="text-xl font-semibold mb-4 group-hover:text-[var(--color-secondary)] transition">
                             Packet Tracer Topology
                         </h3>
-                        <p class="text-sm text-[#66776A] leading-7 mb-7">
+                        <p class="text-sm text-[var(--color-text-secondary)] leading-7 mb-7">
                             Access the native .pkt file to inspect the
                             simulated network.
                         </p>
@@ -371,7 +372,7 @@
 
                 </div>
 
-                <p class="text-xs text-[#8A998C] mt-6 leading-6">
+                <p class="text-xs text-[var(--color-text-caption-project)] mt-6 leading-6">
                     The topology file requires compatible Cisco Packet Tracer
                     software to open and inspect.
                 </p>
@@ -379,10 +380,10 @@
         </section>
 
         <!-- Navigation CTA -->
-        <section class="bg-[#E9EEE7] py-16 lg:py-20">
+        <section class="bg-[var(--color-surface-project-section)] py-16 lg:py-20">
             <div class="max-w-7xl mx-auto px-6 lg:px-10 flex flex-col md:flex-row md:items-center justify-between gap-8">
                 <div>
-                    <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#738A6E] mb-4">
+                    <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-secondary)] mb-4">
                         Continue exploring
                     </p>
                     <h2 class="text-3xl lg:text-4xl font-semibold">
@@ -391,7 +392,7 @@
                 </div>
 
                 <a href="../projects.html"
-                   class="inline-flex items-center justify-center bg-[#344C3D] text-white px-7 py-4 rounded-full text-sm font-medium hover:bg-[#283C30] transition">
+                   class="inline-flex items-center justify-center bg-[var(--color-primary)] text-white px-7 py-4 rounded-full text-sm font-medium hover:bg-[var(--color-footer-background)] transition">
                     Explore all projects &rarr;
                 </a>
             </div>
@@ -400,11 +401,11 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-[#283C30] text-white">
+    <footer class="bg-[var(--color-footer-background)] text-white">
         <div class="max-w-7xl mx-auto px-6 lg:px-10 py-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div>
                 <a href="../index.html" class="text-xl font-bold tracking-tight">
-                    Sechaba<span class="text-[#BFCFBB]">.</span>
+                    Sechaba<span class="text-[var(--color-text-light-muted)]">.</span>
                 </a>
                 <p class="text-sm text-white/60 mt-2">
                     Computing Professional | Network &amp; Infrastructure
