@@ -6,28 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects | Sechaba Mohale</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/theme.css">
 </head>
 
-<body class="bg-[#F7F8F5] text-[#283C30] font-sans">
+<body class="bg-[var(--color-page-background)] text-[var(--color-footer-background)] font-sans">
 
     <!-- Navigation -->
-    <header class="px-4 sm:px-6 lg:px-12 py-5 sm:py-6 border-b border-[#E3E8E1] bg-[#F7F8F5]">
+    <header class="px-4 sm:px-6 lg:px-12 py-5 sm:py-6 border-b border-[var(--color-border-header)] bg-[var(--color-page-background)]">
         <nav class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-4">
 
-            <a href="index.html" class="text-2xl font-bold tracking-tight text-[#344C3D]">
+            <a href="index.html" class="text-2xl font-bold tracking-tight text-[var(--color-text-primary)]">
                 SM.
             </a>
 
-            <div class="order-3 w-full flex flex-wrap items-center justify-center gap-x-5 gap-y-3 text-sm font-medium text-[#66756A] md:order-none md:w-auto md:justify-start md:gap-8">
-                <a href="index.html" class="hover:text-[#344C3D]">Home</a>
-                <a href="about.html" class="hover:text-[#344C3D]">About</a>
-                <a href="expertise.html" class="hover:text-[#344C3D]">Expertise</a>
-                <a href="projects.html" class="text-[#344C3D] font-bold">Projects</a>
-                <a href="experience.html" class="hover:text-[#344C3D]">Experience</a>
+            <div class="order-3 w-full flex flex-wrap items-center justify-center gap-x-5 gap-y-3 text-sm font-medium text-[var(--color-text-navigation)] md:order-none md:w-auto md:justify-start md:gap-8">
+                <a href="index.html" class="hover:text-[var(--color-text-primary)]">Home</a>
+                <a href="about.html" class="hover:text-[var(--color-text-primary)]">About</a>
+                <a href="expertise.html" class="hover:text-[var(--color-text-primary)]">Expertise</a>
+                <a href="projects.html" class="text-[var(--color-text-primary)] font-bold">Projects</a>
+                <a href="experience.html" class="hover:text-[var(--color-text-primary)]">Experience</a>
             </div>
 
             <a href="contact.html"
-               class="bg-[#344C3D] text-white px-4 sm:px-5 py-2.5 sm:py-3 text-xs sm:text-sm font-semibold rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm hover:bg-[#496451]">
+               class="bg-[var(--color-primary)] text-white px-4 sm:px-5 py-2.5 sm:py-3 text-xs sm:text-sm font-semibold rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm hover:bg-[var(--color-primary-hover)]">
                 Let's Connect
             </a>
 
@@ -42,26 +43,26 @@
 
             <div class="max-w-2xl">
 
-                <p class="text-xs uppercase tracking-[0.3em] font-bold text-[#738A6E] mb-4">
+                <p class="text-xs uppercase tracking-[0.3em] font-bold text-[var(--color-secondary)] mb-4">
                     Selected Work / 01
                 </p>
 
-                <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#283C30] leading-tight">
-                    Engineering through <span class="text-[#738A6E]">practical work.</span>
+                <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[var(--color-footer-background)] leading-tight">
+                    Engineering through <span class="text-[var(--color-secondary)]">practical work.</span>
                 </h1>
 
-                <p class="text-[#718075] text-sm sm:text-base leading-7 mt-5 max-w-xl">
+                <p class="text-[var(--color-text-body)] text-sm sm:text-base leading-7 mt-5 max-w-xl">
                     A collection of infrastructure, networking, automation and software projects
                     demonstrating my approach to building reliable and secure technical systems.
                 </p>
 
             </div>
 
-            <div class="bg-[#344C3D] text-white p-5 sm:p-6 rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm w-full sm:w-fit min-w-[190px]">
+            <div class="bg-[var(--color-primary)] text-white p-5 sm:p-6 rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm w-full sm:w-fit min-w-[190px]">
 
                 <p class="text-3xl font-bold">05</p>
 
-                <p class="text-xs text-[#D0DCCF] mt-2 uppercase tracking-widest">
+                <p class="text-xs text-[var(--color-text-on-dark)] mt-2 uppercase tracking-widest">
                     Featured Projects
                 </p>
 
@@ -73,13 +74,13 @@
         <!-- Infrastructure Projects -->
         <section class="mb-12 sm:mb-14">
 
-            <div class="flex items-center justify-between border-b border-[#DDE5DC] pb-4 mb-6 gap-4">
+            <div class="flex items-center justify-between border-b border-[var(--color-border-section)] pb-4 mb-6 gap-4">
 
-                <h2 class="text-lg sm:text-xl font-bold text-[#344C3D]">
+                <h2 class="text-lg sm:text-xl font-bold text-[var(--color-text-primary)]">
                     Infrastructure & Networking
                 </h2>
 
-                <span class="text-[10px] sm:text-xs uppercase tracking-widest text-[#8A998D] shrink-0">
+                <span class="text-[10px] sm:text-xs uppercase tracking-widest text-[var(--color-text-soft)] shrink-0">
                     01 — 03
                 </span>
 
@@ -90,29 +91,29 @@
 
 
                 <!-- Project 1 -->
-                <article class="bg-white border border-[#E4EAE2] p-5 sm:p-6 lg:p-7 rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-sm hover:shadow-md transition">
+                <article class="bg-white border border-[var(--color-border-card)] p-5 sm:p-6 lg:p-7 rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-sm hover:shadow-md transition">
 
                     <div class="flex items-center justify-between mb-6 sm:mb-8">
-                        <span class="text-xs font-bold tracking-widest text-[#738A6E]">01 / NETWORKING</span>
-                        <span class="text-[#738A6E] text-xl">↗</span>
+                        <span class="text-xs font-bold tracking-widest text-[var(--color-secondary)]">01 / NETWORKING</span>
+                        <span class="text-[var(--color-secondary)] text-xl">↗</span>
                     </div>
 
                     <h3 class="text-lg sm:text-xl font-bold leading-snug mb-3">
                         Enterprise Multi-Site Network Design
                     </h3>
 
-                    <p class="text-sm leading-6 text-[#718075] mb-6">
+                    <p class="text-sm leading-6 text-[var(--color-text-body)] mb-6">
                         A simulated enterprise network architecture designed around hierarchical
                         networking, VLAN segmentation and secure routing.
                     </p>
 
                     <div class="flex flex-wrap gap-2 mb-7">
-                       <span class="bg-[#EEF3EC] text-[#526B55] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Cisco Packet Tracer</span>
-                        <span class="bg-[#EEF3EC] text-[#526B55] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">VLANs</span>
-                        <span class="bg-[#EEF3EC] text-[#526B55] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">OSPF</span>
+                       <span class="bg-[var(--color-surface-tag)] text-[var(--color-text-tag)] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Cisco Packet Tracer</span>
+                        <span class="bg-[var(--color-surface-tag)] text-[var(--color-text-tag)] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">VLANs</span>
+                        <span class="bg-[var(--color-surface-tag)] text-[var(--color-text-tag)] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">OSPF</span>
                     </div>
 
-                    <a href="projects/network-design.html" class="text-sm font-bold text-[#344C3D] border-b border-[#738A6E] pb-1 hover:text-[#738A6E]">
+                    <a href="projects/network-design.html" class="text-sm font-bold text-[var(--color-text-primary)] border-b border-[var(--color-secondary)] pb-1 hover:text-[var(--color-secondary)]">
                         Explore project →
                     </a>
 
@@ -120,29 +121,29 @@
 
 
                 <!-- Project 2 -->
-                <article class="bg-white border border-[#E4EAE2] p-5 sm:p-6 lg:p-7 rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-sm hover:shadow-md transition">
+                <article class="bg-white border border-[var(--color-border-card)] p-5 sm:p-6 lg:p-7 rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-sm hover:shadow-md transition">
 
                     <div class="flex items-center justify-between mb-6 sm:mb-8">
-                        <span class="text-xs font-bold tracking-widest text-[#738A6E]">02 / INFRASTRUCTURE</span>
-                        <span class="text-[#738A6E] text-xl">↗</span>
+                        <span class="text-xs font-bold tracking-widest text-[var(--color-secondary)]">02 / INFRASTRUCTURE</span>
+                        <span class="text-[var(--color-secondary)] text-xl">↗</span>
                     </div>
 
                     <h3 class="text-lg sm:text-xl font-bold leading-snug mb-3">
                         Automated Hybrid Enterprise Home Lab
                     </h3>
 
-                    <p class="text-sm leading-6 text-[#718075] mb-6">
+                    <p class="text-sm leading-6 text-[var(--color-text-body)] mb-6">
                         A virtualized enterprise environment combining Linux services,
                         Windows Server administration and network infrastructure.
                     </p>
 
                     <div class="flex flex-wrap gap-2 mb-7">
-                        <span class="bg-[#EEF3EC] text-[#526B55] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Proxmox</span>
-                        <span class="bg-[#EEF3EC] text-[#526B55] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Linux</span>
-                        <span class="bg-[#EEF3EC] text-[#526B55] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Windows Server</span>
+                        <span class="bg-[var(--color-surface-tag)] text-[var(--color-text-tag)] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Proxmox</span>
+                        <span class="bg-[var(--color-surface-tag)] text-[var(--color-text-tag)] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Linux</span>
+                        <span class="bg-[var(--color-surface-tag)] text-[var(--color-text-tag)] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Windows Server</span>
                     </div>
 
-                    <a href="projects/enterprise-home-lab.html" class="text-sm font-bold text-[#344C3D] border-b border-[#738A6E] pb-1 hover:text-[#738A6E]">
+                    <a href="projects/enterprise-home-lab.html" class="text-sm font-bold text-[var(--color-text-primary)] border-b border-[var(--color-secondary)] pb-1 hover:text-[var(--color-secondary)]">
                         Explore project →
                     </a>
 
@@ -150,29 +151,29 @@
 
 
                 <!-- Project 3 -->
-                <article class="bg-white border border-[#E4EAE2] p-5 sm:p-6 lg:p-7 rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-sm hover:shadow-md transition">
+                <article class="bg-white border border-[var(--color-border-card)] p-5 sm:p-6 lg:p-7 rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm shadow-sm hover:shadow-md transition">
 
                     <div class="flex items-center justify-between mb-6 sm:mb-8">
-                        <span class="text-xs font-bold tracking-widest text-[#738A6E]">03 / AUTOMATION</span>
-                        <span class="text-[#738A6E] text-xl">↗</span>
+                        <span class="text-xs font-bold tracking-widest text-[var(--color-secondary)]">03 / AUTOMATION</span>
+                        <span class="text-[var(--color-secondary)] text-xl">↗</span>
                     </div>
 
                     <h3 class="text-lg sm:text-xl font-bold leading-snug mb-3">
                         Network Automation & Telemetry Engine
                     </h3>
 
-                    <p class="text-sm leading-6 text-[#718075] mb-6">
+                    <p class="text-sm leading-6 text-[var(--color-text-body)] mb-6">
                         A Python-based network monitoring utility for automated reachability
                         checks, diagnostic reporting and structured logging.
                     </p>
 
                     <div class="flex flex-wrap gap-2 mb-7">
-                        <span class="bg-[#EEF3EC] text-[#526B55] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Python</span>
-                        <span class="bg-[#EEF3EC] text-[#526B55] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Netmiko</span>
-                        <span class="bg-[#EEF3EC] text-[#526B55] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Bash</span>
+                        <span class="bg-[var(--color-surface-tag)] text-[var(--color-text-tag)] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Python</span>
+                        <span class="bg-[var(--color-surface-tag)] text-[var(--color-text-tag)] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Netmiko</span>
+                        <span class="bg-[var(--color-surface-tag)] text-[var(--color-text-tag)] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Bash</span>
                     </div>
 
-                    <a href="projects/network-automation.html" class="text-sm font-bold text-[#344C3D] border-b border-[#738A6E] pb-1 hover:text-[#738A6E]">
+                    <a href="projects/network-automation.html" class="text-sm font-bold text-[var(--color-text-primary)] border-b border-[var(--color-secondary)] pb-1 hover:text-[var(--color-secondary)]">
                         Explore project →
                     </a>
 
@@ -185,13 +186,13 @@
         <!-- Software Projects -->
         <section>
 
-            <div class="flex items-center justify-between border-b border-[#DDE5DC] pb-4 mb-6 gap-4">
+            <div class="flex items-center justify-between border-b border-[var(--color-border-section)] pb-4 mb-6 gap-4">
 
-                <h2 class="text-lg sm:text-xl font-bold text-[#344C3D]">
+                <h2 class="text-lg sm:text-xl font-bold text-[var(--color-text-primary)]">
                     Software & Web Development
                 </h2>
 
-                <span class="text-[10px] sm:text-xs uppercase tracking-widest text-[#8A998D] shrink-0">
+                <span class="text-[10px] sm:text-xs uppercase tracking-widest text-[var(--color-text-soft)] shrink-0">
                     04 — 05
                 </span>
 
@@ -202,29 +203,29 @@
 
 
                 <!-- Project 4 -->
-                <article class="bg-[#EDF2EA] border border-[#DDE6DA] p-5 sm:p-6 lg:p-8 rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm">
+                <article class="bg-[var(--color-surface-project)] border border-[var(--color-border-project)] p-5 sm:p-6 lg:p-8 rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm">
 
                     <div class="flex items-center justify-between mb-6 sm:mb-8">
-                        <span class="text-xs font-bold tracking-widest text-[#738A6E]">04 / WEB DEVELOPMENT</span>
-                        <span class="text-[#738A6E] text-xl">↗</span>
+                        <span class="text-xs font-bold tracking-widest text-[var(--color-secondary)]">04 / WEB DEVELOPMENT</span>
+                        <span class="text-[var(--color-secondary)] text-xl">↗</span>
                     </div>
 
                     <h3 class="text-xl sm:text-2xl font-bold mb-3">
                         National Business Summit Website
                     </h3>
 
-                    <p class="text-sm text-[#718075] leading-7 max-w-lg mb-7">
+                    <p class="text-sm text-[var(--color-text-body)] leading-7 max-w-lg mb-7">
                         A modern event website developed to present summit information,
                         communicate event details and provide a structured digital experience.
                     </p>
 
                     <div class="flex flex-wrap gap-2 mb-7">
-                        <span class="bg-white text-[#526B55] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Next.js</span>
-                        <span class="bg-white text-[#526B55] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Tailwind CSS</span>
-                        <span class="bg-white text-[#526B55] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Vercel</span>
+                        <span class="bg-white text-[var(--color-text-tag)] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Next.js</span>
+                        <span class="bg-white text-[var(--color-text-tag)] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Tailwind CSS</span>
+                        <span class="bg-white text-[var(--color-text-tag)] text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Vercel</span>
                     </div>
 
-                    <a href="https://national-business-summit.vercel.app/" class="text-sm font-bold text-[#344C3D] border-b border-[#738A6E] pb-1 hover:text-[#738A6E]">
+                    <a href="https://national-business-summit.vercel.app/" class="text-sm font-bold text-[var(--color-text-primary)] border-b border-[var(--color-secondary)] pb-1 hover:text-[var(--color-secondary)]">
                         Explore project →
                     </a>
 
@@ -232,29 +233,29 @@
 
 
                 <!-- Project 5 -->
-                <article class="bg-[#344C3D] text-white p-5 sm:p-6 lg:p-8 rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm">
+                <article class="bg-[var(--color-primary)] text-white p-5 sm:p-6 lg:p-8 rounded-tl-2xl rounded-br-2xl rounded-tr-sm rounded-bl-sm">
 
                     <div class="flex items-center justify-between mb-6 sm:mb-8">
-                        <span class="text-xs font-bold tracking-widest text-[#C0D0BC]">05 / SOFTWARE DEVELOPMENT</span>
-                        <span class="text-[#C0D0BC] text-xl">↗</span>
+                        <span class="text-xs font-bold tracking-widest text-[var(--color-text-on-dark-accent)]">05 / SOFTWARE DEVELOPMENT</span>
+                        <span class="text-[var(--color-text-on-dark-accent)] text-xl">↗</span>
                     </div>
 
                     <h3 class="text-xl sm:text-2xl font-bold mb-3">
                         Weather Application
                     </h3>
 
-                    <p class="text-sm text-[#D0DCCF] leading-7 max-w-lg mb-7">
+                    <p class="text-sm text-[var(--color-text-on-dark)] leading-7 max-w-lg mb-7">
                         A weather application integrating location search and live forecast
                         data, with current conditions, hourly forecasts and weekly summaries.
                     </p>
 
                     <div class="flex flex-wrap gap-2 mb-7">
-                        <span class="bg-[#496451] text-white text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Next.js</span>
-                        <span class="bg-[#496451] text-white text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">TypeScript</span>
-                        <span class="bg-[#496451] text-white text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Open-Meteo</span>
+                        <span class="bg-[var(--color-primary-hover)] text-white text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Next.js</span>
+                        <span class="bg-[var(--color-primary-hover)] text-white text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">TypeScript</span>
+                        <span class="bg-[var(--color-primary-hover)] text-white text-xs px-3 py-2 rounded-tl-lg rounded-br-lg">Open-Meteo</span>
                     </div>
 
-                    <a href="projects/weather-application.html" class="text-sm font-bold text-white border-b border-[#AFC2AA] pb-1 hover:text-[#C0D0BC]">
+                    <a href="projects/weather-application.html" class="text-sm font-bold text-white border-b border-[var(--color-border-on-dark)] pb-1 hover:text-[var(--color-text-on-dark-accent)]">
                         Explore project →
                     </a>
 
@@ -267,17 +268,17 @@
 
 
     <!-- Footer -->
-    <footer class="bg-[#283C30] text-white px-4 sm:px-6 lg:px-12 py-7 sm:py-8 mt-10 sm:mt-16">
+    <footer class="bg-[var(--color-footer-background)] text-white px-4 sm:px-6 lg:px-12 py-7 sm:py-8 mt-10 sm:mt-16">
 
         <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-5 text-center sm:text-left">
 
             <p class="text-sm font-semibold leading-6">
                 Sechaba Mohale
-                <span class="text-[#AFC2AA]">/</span>
+                <span class="text-[var(--color-text-on-dark-muted)]">/</span>
                 DevSecOps & Infrastructure Engineer
             </p>
 
-            <div class="flex flex-wrap items-center justify-center gap-5 sm:gap-6 text-sm text-[#D0DCCF]">
+            <div class="flex flex-wrap items-center justify-center gap-5 sm:gap-6 text-sm text-[var(--color-text-on-dark)]">
 
                 <a href="https://github.com/SechabaL/" target="_blank" class="hover:text-white">
                     GitHub
