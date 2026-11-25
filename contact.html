@@ -89,28 +89,115 @@
                 </p>
 
 
-                <!-- Email -->
-                <div class="border-t border-[var(--color-border)] mt-9 pt-7">
 
-                    <p class="text-xs uppercase tracking-[0.15em] text-[var(--color-text-caption)] font-semibold">
-                        Email
-                    </p>
+            <!-- Contact Form -->
+            <div class="border-t border-[var(--color-border)] mt-9 pt-7">
 
-                    <a href="mailto:1mohalesechaba@gmail.com"
-                       class="inline-block text-lg md:text-xl font-semibold mt-3 hover:text-[var(--color-secondary)] transition break-all">
-                        1mohalesechaba@gmail.com
-                    </a>
+                <form id="contact-form" class="space-y-5">
 
-                    <p class="text-xs text-[var(--color-text-muted)] mt-2">
-                        For professional enquiries and correspondence.
-                    </p>
+                    <!-- Full Name -->
+                    <div>
+                        <label for="name"
+                            class="block text-xs font-semibold mb-2">
+                            Full name *
+                        </label>
 
-                    <a href="mailto:1mohalesechaba@gmail.com"
-                       class="inline-flex items-center gap-2 bg-[var(--color-primary)] text-white px-6 py-3 mt-6 text-xs font-semibold tracking-wider rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm hover:bg-[var(--color-primary-hover)] transition">
-                        SEND AN EMAIL →
-                    </a>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your full name"
+                            autocomplete="name"
+                            required
+                            class="w-full border border-[var(--color-border)] bg-[var(--color-page-background)] rounded-lg px-4 py-3 text-sm outline-none focus:border-[var(--color-accent)] transition"
+                        >
+                    </div>
 
-                </div>
+                    <!-- Email Address -->
+                    <div>
+                        <label for="email"
+                            class="block text-xs font-semibold mb-2">
+                            Email address *
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            autocomplete="email"
+                            required
+                            class="w-full border border-[var(--color-border)] bg-[var(--color-page-background)] rounded-lg px-4 py-3 text-sm outline-none focus:border-[var(--color-accent)] transition"
+                        >
+                    </div>
+
+                    <!-- Enquiry Type -->
+                    <div>
+                        <label for="subject"
+                            class="block text-xs font-semibold mb-2">
+                            What is this about? *
+                        </label>
+
+                        <select
+                            id="subject"
+                            name="subject"
+                            required
+                            class="w-full border border-[var(--color-border)] bg-[var(--color-page-background)] rounded-lg px-4 py-3 text-sm outline-none focus:border-[var(--color-accent)] transition"
+                        >
+                            <option value="">Select an enquiry type</option>
+                            <option value="General enquiry">General enquiry</option>
+                            <option value="Software development">Software development</option>
+                            <option value="Network and IT services">Network and IT services</option>
+                            <option value="Professional opportunity">Professional opportunity</option>
+                            <option value="Collaboration">Collaboration</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <!-- Message -->
+                    <div>
+                        <div class="flex items-center justify-between mb-2">
+                            <label for="message"
+                                class="text-xs font-semibold">
+                                Your message *
+                            </label>
+
+                            <span id="message-count"
+                                class="text-xs text-[var(--color-text-muted)]">
+                                0 / 500
+                            </span>
+                        </div>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            maxlength="500"
+                            placeholder="Briefly describe your enquiry..."
+                            required
+                            class="w-full border border-[var(--color-border)] bg-[var(--color-page-background)] rounded-lg px-4 py-3 text-sm outline-none focus:border-[var(--color-accent)] transition resize-y"
+                        ></textarea>
+                    </div>
+
+                    <!-- Feedback -->
+                    <p id="form-status"
+                    role="status"
+                    aria-live="polite"
+                    class="text-sm"
+                    ></p>
+
+                    <!-- Submit -->
+                    <button
+                        type="submit"
+                        class="inline-flex items-center gap-2 bg-[var(--color-primary)] text-white px-6 py-3 text-xs font-semibold tracking-wider rounded-tl-xl rounded-br-xl rounded-tr-sm rounded-bl-sm hover:bg-[var(--color-primary-hover)] transition"
+                    >
+                        SUBMIT ENQUIRY <span aria-hidden="true">→</span>
+                    </button>
+
+                </form>
+
+            </div>
+
 
 
                 <!-- Social Profiles -->
@@ -287,5 +374,6 @@
 
     </footer>
 
+    <script src="assets/contact.js"></script>
 </body>
 </html>
